@@ -26,6 +26,12 @@ body {
     .Technologies{
         .row{
             margin-top: 10px;
+            margin-bottom: 10px;
+            .card{
+                img{
+                    margin: auto;
+                }
+            }
         }
     }
     #profile{
@@ -41,6 +47,9 @@ body {
     }
     .contacte{
         padding: 20px;
+        text-align: center;
+        .fas{font-size: 2em;}
+        .fab{font-size: 2em;}
     }
     footer{
         background-color:#912ab3;

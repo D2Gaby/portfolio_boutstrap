@@ -28,6 +28,11 @@ body .fond {
 
 body .Technologies .row {
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body .Technologies .row .card img {
+  margin: auto;
 }
 
 body #profile {
@@ -44,6 +49,15 @@ body #profile {
 
 body .contacte {
   padding: 20px;
+  text-align: center;
+}
+
+body .contacte .fas {
+  font-size: 2em;
+}
+
+body .contacte .fab {
+  font-size: 2em;
 }
 
 body footer {
