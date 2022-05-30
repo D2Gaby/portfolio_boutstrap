@@ -12,6 +12,26 @@ body .acceuil {
   margin: 20px;
 }
 
+body .acceuil .card-body {
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .acceuil .card-body h1 {
+  color: #B437DF;
+}
+
+body .acceuil .pose {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body .container {
   margin-top: 20px;
 }
@@ -46,8 +66,16 @@ body #profile {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   color: white;
+}
+
+body #profile .pose {
+  width: 40vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body .contacte {
@@ -55,12 +83,16 @@ body .contacte {
   text-align: center;
 }
 
-body .contacte .fas {
+body .contacte .card .fas {
   font-size: 2em;
 }
 
-body .contacte .fab {
+body .contacte .card .fab {
   font-size: 2em;
+}
+
+body .contacte .card:hover {
+  color: #B437DF;
 }
 
 body footer {

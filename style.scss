@@ -1,59 +1,109 @@
 body {
-    header{
-        nav{
-           background-color:#912ab3;
-           .imgtail {
-               height: auto;
-               width: 150px;
-               border-radius: 50%;
-           }
+    header {
+        nav {
+            background-color: #912ab3;
+
+            .imgtail {
+                height: auto;
+                width: 150px;
+                border-radius: 50%;
+            }
         }
     }
-    .acceuil{
+
+    .acceuil {
         margin: 20px;
-        .card{}
+
+        .card-body {
+            h1 {
+                color: #B437DF;
+            }
+
+            text-align: center;
+            margin: auto;
+            padding: auto;
+            align-items: center;
+        }
+
+        .pose {
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
     }
-    .container{
+
+    .container {
         margin-top: 20px;
     }
-    .fond{
-        background-color:#B437DF;
+
+    .fond {
+        background-color: #B437DF;
         padding: 30px;
         margin-top: 10px;
-        text-align: center; 
+        text-align: center;
         align-items: center;
     }
-    .Technologies{
-        .row{
+
+    .Technologies {
+        .row {
             margin-top: 10px;
-            .card{
+
+            .card {
                 margin-bottom: 30px;
-                img{
+
+                img {
                     margin: auto;
                 }
             }
         }
     }
-    #profile{
+
+    #profile {
         background-image: linear-gradient(rgba(180, 55, 223, 0.2),
-        rgba(145, 42, 179, 0.3)), url(./images/fondparalax.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  color: white;
+                rgba(145, 42, 179, 0.3)), url(./images/fondparalax.jpg) ;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: auto;
+        color: white;
+        .pose{
+            width:40vw;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
-    .contacte{
+
+    .contacte {
         padding: 20px;
         text-align: center;
-        .fas{font-size: 2em;}
-        .fab{font-size: 2em;}
+
+        .card {
+            .fas {
+                font-size: 2em;
+            }
+
+            .fab {
+                font-size: 2em;
+            }
+        }
+        .card:hover{
+            color: #B437DF;
+        }
     }
-    footer{
-        background-color:#912ab3;
-        img{border-radius: 50%;}
+
+    footer {
+        background-color: #912ab3;
+
+        img {
+            border-radius: 50%;
+        }
+
         text-align: center;
         color: white;
     }
