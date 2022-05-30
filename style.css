@@ -1,0 +1,58 @@
+body header nav {
+  background-color: #912ab3;
+}
+
+body header nav .imgtail {
+  height: auto;
+  width: 150px;
+  border-radius: 50%;
+}
+
+body .acceuil {
+  margin: 20px;
+}
+
+body .container {
+  margin-top: 20px;
+}
+
+body .fond {
+  background-color: #B437DF;
+  padding: 30px;
+  margin-top: 10px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .Technologies .row {
+  margin-top: 10px;
+}
+
+body #profile {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 55, 223, 0.2)), to(rgba(145, 42, 179, 0.3))), url(./images/fondparalax.jpg);
+  background-image: linear-gradient(rgba(180, 55, 223, 0.2), rgba(145, 42, 179, 0.3)), url(./images/fondparalax.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+body .contacte {
+  padding: 20px;
+}
+
+body footer {
+  background-color: #912ab3;
+  text-align: center;
+  color: white;
+}
+
+body footer img {
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+body {
+    header{
+        nav{
+           background-color:#912ab3;
+           .imgtail {
+               height: auto;
+               width: 150px;
+               border-radius: 50%;
+           }
+        }
+    }
+    .acceuil{
+        margin: 20px;
+        .card{}
+    }
+    .container{
+        margin-top: 20px;
+    }
+    .fond{
+        background-color:#B437DF;
+        padding: 30px;
+        margin-top: 10px;
+        text-align: center; 
+        align-items: center;
+    }
+    .Technologies{
+        .row{
+            margin-top: 10px;
+        }
+    }
+    #profile{
+        background-image: linear-gradient(rgba(180, 55, 223, 0.2),
+        rgba(145, 42, 179, 0.3)), url(./images/fondparalax.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+    }
+    .contacte{
+        padding: 20px;
+    }
+    footer{
+        background-color:#912ab3;
+        img{border-radius: 50%;}
+        text-align: center;
+        color: white;
+    }
+}
