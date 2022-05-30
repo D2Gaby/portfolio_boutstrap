@@ -28,7 +28,10 @@ body .fond {
 
 body .Technologies .row {
   margin-top: 10px;
-  margin-bottom: 10px;
+}
+
+body .Technologies .row .card {
+  margin-bottom: 30px;
 }
 
 body .Technologies .row .card img {
