@@ -1,16 +1,22 @@
-body header nav {
+* {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+* body header nav {
   background-color: #912ab3;
 }
 
-body #acceuil .card-body h1 {
+* body #acceuil .card-body h1 {
   color: #B437DF;
 }
 
-body .fond {
+* body .fond {
   background-color: #B437DF;
 }
 
-body #profile {
+* body #profile {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 55, 223, 0.2)), to(rgba(145, 42, 179, 0.3))), url(./images/fondparalax.jpg);
   background-image: linear-gradient(rgba(180, 55, 223, 0.2), rgba(145, 42, 179, 0.3)), url(./images/fondparalax.jpg);
   background-attachment: fixed;
@@ -22,19 +28,19 @@ body #profile {
   color: white;
 }
 
-body #contacte .card .fas {
+* body #contacte .card .fas {
   font-size: 2em;
 }
 
-body #contacte .card .fab {
+* body #contacte .card .fab {
   font-size: 2em;
 }
 
-body #contacte .card:hover {
+* body #contacte .card:hover {
   color: #B437DF;
 }
 
-body footer {
+* body footer {
   background-color: #912ab3;
   color: white;
 }

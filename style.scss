@@ -1,53 +1,59 @@
-body {
-    header {
-        nav {
-            background-color: #912ab3;
+* {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    body {
+        header {
+            nav {
+                background-color: #912ab3;
+            }
         }
-    }
 
-    #acceuil {
-        .card-body {
-            h1 {
+        #acceuil {
+            .card-body {
+                h1 {
+                    color: #B437DF;
+                }
+            }
+
+        }
+
+        .fond {
+            background-color: #B437DF;
+        }
+
+        #profile {
+            background-image: linear-gradient(rgba(180, 55, 223, 0.2),
+                    rgba(145, 42, 179, 0.3)), url(./images/fondparalax.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100vw;
+            height: auto;
+            color: white;
+        }
+
+        #contacte {
+
+            .card {
+                .fas {
+                    font-size: 2em;
+                }
+
+                .fab {
+                    font-size: 2em;
+                }
+            }
+
+            .card:hover {
                 color: #B437DF;
             }
         }
 
-    }
-
-    .fond {
-        background-color: #B437DF;
-    }
-
-    #profile {
-        background-image: linear-gradient(rgba(180, 55, 223, 0.2),
-                rgba(145, 42, 179, 0.3)), url(./images/fondparalax.jpg) ;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100vw;
-        height: auto;
-        color: white;
-    }
-
-    #contacte {
-
-        .card {
-            .fas {
-                font-size: 2em;
-            }
-
-            .fab {
-                font-size: 2em;
-            }
+        footer {
+            background-color: #912ab3;
+            color: white;
         }
-        .card:hover{
-            color: #B437DF;
-        }
-    }
-
-    footer {
-        background-color: #912ab3;
-        color: white;
     }
 }
