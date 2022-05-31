@@ -2,60 +2,12 @@ body header nav {
   background-color: #912ab3;
 }
 
-body header nav .imgtail {
-  height: auto;
-  width: 150px;
-  border-radius: 50%;
-}
-
-body .acceuil {
-  margin: 20px;
-}
-
-body .acceuil .card-body {
-  text-align: center;
-  margin: auto;
-  padding: auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 body .acceuil .card-body h1 {
   color: #B437DF;
 }
 
-body .acceuil .pose {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-body .container {
-  margin-top: 20px;
-}
-
 body .fond {
   background-color: #B437DF;
-  padding: 30px;
-  margin-top: 10px;
-  text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .Technologies .row {
-  margin-top: 10px;
-}
-
-body .Technologies .row .card {
-  margin-bottom: 30px;
-}
-
-body .Technologies .row .card img {
-  margin: auto;
 }
 
 body #profile {
@@ -68,19 +20,6 @@ body #profile {
   width: 100vw;
   height: auto;
   color: white;
-}
-
-body #profile .pose {
-  width: 40vw;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-body .contacte {
-  padding: 20px;
-  text-align: center;
 }
 
 body .contacte .card .fas {
@@ -97,11 +36,6 @@ body .contacte .card:hover {
 
 body footer {
   background-color: #912ab3;
-  text-align: center;
   color: white;
-}
-
-body footer img {
-  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
