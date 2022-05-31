@@ -6,6 +6,12 @@ body header nav {
   background-color: #912ab3;
 }
 
+body #bacgrownnav {
+  background-color: #912ab3;
+  width: 100vw;
+  height: 21vh;
+}
+
 body #acceuil .card-body h1 {
   color: #B437DF;
 }
