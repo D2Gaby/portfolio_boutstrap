@@ -2,7 +2,7 @@ body header nav {
   background-color: #912ab3;
 }
 
-body .acceuil .card-body h1 {
+body #acceuil .card-body h1 {
   color: #B437DF;
 }
 
@@ -22,15 +22,15 @@ body #profile {
   color: white;
 }
 
-body .contacte .card .fas {
+body #contacte .card .fas {
   font-size: 2em;
 }
 
-body .contacte .card .fab {
+body #contacte .card .fab {
   font-size: 2em;
 }
 
-body .contacte .card:hover {
+body #contacte .card:hover {
   color: #B437DF;
 }
 
