@@ -3,6 +3,13 @@ body {
         header {
             nav {
                 background-color: #912ab3;
+                .container-fluid{
+                    .navbar-brand{
+                        margin: 0;
+                        width: 135px;
+                        height: 135px;
+                    }
+                }
             }
         }
         #bacgrownnav{

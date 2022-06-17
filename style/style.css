@@ -6,6 +6,12 @@ body header nav {
   background-color: #912ab3;
 }
 
+body header nav .container-fluid .navbar-brand {
+  margin: 0;
+  width: 135px;
+  height: 135px;
+}
+
 body #bacgrownnav {
   background-color: #912ab3;
   width: 100vw;
