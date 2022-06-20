@@ -12,6 +12,11 @@ body header nav .container-fluid .navbar-brand {
   height: 135px;
 }
 
+body header nav .container-fluid .offcanvas {
+  width: 300px;
+  background-color: #912ab3;
+}
+
 body #bacgrownnav {
   background-color: #912ab3;
   width: 100vw;
