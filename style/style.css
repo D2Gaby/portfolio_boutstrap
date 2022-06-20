@@ -22,13 +22,17 @@ body #acceuil .card-body h1 {
   color: #B437DF;
 }
 
+body #acceuil img {
+  width: 75%;
+}
+
 body .fond {
   background-color: #B437DF;
 }
 
 body #profile {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 55, 223, 0.2)), to(rgba(145, 42, 179, 0.3))), url(./images/fondparalax.jpg);
-  background-image: linear-gradient(rgba(180, 55, 223, 0.2), rgba(145, 42, 179, 0.3)), url(./images/fondparalax.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(180, 55, 223, 0.2)), to(rgba(145, 42, 179, 0.3))), url(../images/fondparalax.jpg);
+  background-image: linear-gradient(rgba(180, 55, 223, 0.2), rgba(145, 42, 179, 0.3)), url(../images/fondparalax.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,6 +40,10 @@ body #profile {
   width: 100vw;
   height: auto;
   color: white;
+}
+
+body #profile img {
+  width: 75%;
 }
 
 body #contacte .card .fas {

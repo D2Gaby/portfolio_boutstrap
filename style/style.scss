@@ -23,7 +23,7 @@ body {
                     color: #B437DF;
                 }
             }
-
+            img{width: 75%;}
         }
 
         .fond {
@@ -32,7 +32,7 @@ body {
 
         #profile {
             background-image: linear-gradient(rgba(180, 55, 223, 0.2),
-                    rgba(145, 42, 179, 0.3)), url(./images/fondparalax.jpg);
+                    rgba(145, 42, 179, 0.3)), url(../images/fondparalax.jpg);
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -40,6 +40,9 @@ body {
             width: 100vw;
             height: auto;
             color: white;
+            img{
+                width: 75%;
+            }
         }
 
         #contacte {
